@@ -1,0 +1,39 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/configure-pages@v4
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+      - uses: actions/deploy-pages@v4
+```
+
+**5. Save and push to GitHub:**
+
+In GitHub Desktop:
+- You'll see the new file
+- Commit message: `Add GitHub Pages deployment`
+- Click **Commit to main**
+- Click **Push origin**
+
+**6. Wait about 2-3 minutes**, then visit:
+```
+https://YOUR-USERNAME.github.io/font-word-generator/
