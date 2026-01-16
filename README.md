@@ -1,16 +1,48 @@
-# React + Vite
+# IDEA TITLE
+[Short, clear title for this idea]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 1. ONE‑LINE SUMMARY
+[In one or two sentences, explain what this idea is and who it helps.]
 
-Currently, two official plugins are available:
+## 2. WHO THIS IS FOR
+[Describe the kind of person or group this is meant to help.]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 3. THE PROBLEM
+[What problem do they have today? What is frustrating or inefficient?]
 
-## React Compiler
+## 4. THE CORE IDEA
+[Describe the idea in plain language. How does it help? What changes for the user?]
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 5. HOW IT WOULD BE USED (FLOW)
+Step 1: [What the user does first]  
+Step 2: [Next step]  
+Step 3: [Next step]  
+Step 4: [Final or main outcome]
 
-## Expanding the ESLint configuration
+## 6. PROOF OF CONCEPT SCOPE
+This proof of concept WILL show:
+- [Smallest concrete thing we will build or demo]
+- [Another essential piece, if needed]
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This proof of concept WILL NOT cover (later versions):
+- [Things that are “nice to have” but not needed now]
+
+## 7. SUCCESS CRITERIA
+We consider this proof of concept successful if:
+- [What a user can do at the end]
+- [What you learn or validate]
+
+## 8. FEEDBACK I’M LOOKING FOR
+From my partner and other reviewers, I want feedback on:
+- [What you’re unsure about]
+- [What you most want opinions on]
+
+## 9. NOTES FOR IMPLEMENTATION (FOR PARTNER)
+Platform: [Web / mobile / desktop / not sure]  
+Important constraints: [Must be free? Must work in browser? Etc.]  
+Other notes: [Any technical preferences or concerns]
+
+## 10. FUTURE IDEAS (OPTIONAL)
+Later, we might add:
+- [Future feature 1]
+- [Future feature 2]
